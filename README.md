@@ -6,3 +6,4 @@ Make sure to run the shutdown.py script followed by the startup.py script to run
 Delete the "regtest" folder in AppData/Roaming/Bitcoin to clear the regtest environment.
 
 
+![img](screenshot.png)
