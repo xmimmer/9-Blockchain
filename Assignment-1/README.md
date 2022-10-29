@@ -1,4 +1,4 @@
-#Bitcoin Core Application with GUI
+# Bitcoin Core Application with GUI
 
 Make sure to run the shutdown.py script followed by the startup.py script to run the application. 
 
