@@ -42,7 +42,7 @@ contract("Banking - Withdrawal Function", (accounts) => {
     const mads = accounts[1];
     const amount = 2*ether
 
-     it("Verifying simple withdrawal", async () => {
+     it("Verifying withdrawal function", async () => {
         const bankingInstance = await Banking.deployed(); 
 
         await bankingInstance.deposit({from: mads, value: web3.utils.toBN(amount)});
