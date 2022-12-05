@@ -2,16 +2,19 @@
 
 ## **Use-case: Electronic Voting Application** 
 
-Transparency is an important part of the voting application use case. Both voters and auditors need to have an idea of what's happening. 
-Secure. It must be secure to avoid any misconduct from happening. 
-Avoid double spending. Voters should not be allowed to vote more than once.
-Performance and scalability. It has to be scalable to the required capacity, and perform at an acceptable level, to be a suitable solution.
-Simplistic. It has to be simple enough so that ordinary users can participate.
-Eligibility. It has to ensure that the ones casting the votes, are actually eligible to vote.
-Confidentiality, Integrity, Availability (CIA). 
-Confidentiality: Anonymity in votes, but not the voters. Information regarding what was voted can not be shared, but who has voted must be available.
-Integrity: It’s important that the integrity is intact, because without integrity, the results are meaningless
-Availability: It has to have high availability, so that the users can cast their votes without problem.
+**Transparency** is an important part of the voting application use case. Both voters and auditors need to have an idea of what's happening. 
+The application must be **secure** to avoid any misconduct from happening. We should avoid **double spending** as voters should not be allowed to vote more than once.
+**Performance** and **scalability** are very important attributes as the voting system should be able to function quickly in different size environments. Without scale, the application won't be able to grow, and without performance, the traditional system is a better option. The system also has to be **simplistic** as it should be simple enough for ordinary users to participate. They should be able to vote by mail, without having to worrying about blockchain technology too much. We need **eligibility** to ensure that the ones casting the votes, are actually eligible to vote, otherwise it would be a disaster. The system should be **confidential** - voters should be identifiable, but votes should not. This will get rid of the double spending problem. In order to get meaningful results, **integrity** is very important. Voters should feel like they are being treated with full honesty. Finally, users should be able to cast a vote anytime (within the voting period) without having problems. This makes **availability** very important. The aggregated list of requirements is listed below.
+
+* Transparency
+* Security
+* No double spending
+* Performance
+* Scalability
+* Simplicity
+* Eligibility
+* Confidentiality / Integrity / Availability (CIA)
+
 
 ### **1. Evaluation Analysis**
 | Architecture or Blockchain Characteristic | Weight | Subjective Percentage of Affirmation | Weight Affirmation |
